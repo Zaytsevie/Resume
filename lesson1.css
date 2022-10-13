@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Nunito+Sans:ital,wght@1,200&family=Roboto&display=swap');
+
+body {
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    background-color: gainsboro;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 5px 35px 25px 35px;
+    margin-bottom: 15px;
+}
+
+.cl1 {
+    background-color: #4086f4;
+}
+
+.cl2 {
+    background-color: #927d7b;
+}
+
+.cl3 {
+    background-color: #ac954c;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.bl1 {
+    width: 35%;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.bl2 {
+    width: 64%;
+    display: inline-block;
+}
+
+.avatar {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 210px;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    color: rgb(77, 93, 182);
+    font-weight: 900;
+}
+
+.btn {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:active {
+    opacity: 0.5;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.table th {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.table th:nth-child(1),
+.table th:nth-child(2),
+.table th:nth-child(3) {
+    background-color: #8b804f;
+}
+
+.table tr:nth-child(1),
+.table tr:nth-child(2),
+.table tr:nth-child(3) {
+    background-color: #b8aa70;
+}
+
+.table tr:hover {
+    background-color: #e9dab0;
+}
+
+.list li {
+    margin-bottom: 10px;
+    /* border-bottom: 1px solid #b4abab; */
+}
+
+/* .btn:visited {
+    color: rgb(17, 17, 9);
+} */
+
+
+.yolo input,
+.yolo textarea {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    outline: none;
+    font-family: inherit;
+    border-bottom: 1px solid rgb(143, 138, 138);
+}
+
+form h3 {
+    text-align: center;
+}
+
+.we {
+    display: flex;
+}
+
+.we .yolo {
+    padding: 5px;
+    width: 50%;
+}
+
+.yolo label {
+    padding: 10px;
+}
+
+.yolo2 .btn {
+    background-color: #56585a;
+    padding: 10px;
+    color: aliceblue;
+}

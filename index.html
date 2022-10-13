@@ -7,81 +7,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keyboards" content="Igor, cv, resume">
     <meta name="discription" content="Это - резюме Игоря Зайцева">
+    <link rel="stylesheet" href="lesson1.css">
     <title>Igor Zaytsev cv</title>
 </head>
 
 <body>
 
-    <img src="https://fs-thb02.getcourse.ru/fileservice/file/thumbnail/h/ccee4e32f72c58c3b5bd918deaaed0d9.jpeg/s/136x136/a/177331/sc/483"
-        alt="" width="200">
-    <h1>Зайцев Игорь</h1>
+    <div class="container">
 
-    <p>
-        Живу и работаю в городе <strong>Сарапуле</strong>, Удмуртской республики.
-    </p>
-    <p>
-        <em>Люблю путешествовать, занимаюсь фотографией, учусь играть на гитаре.</em>
-    </p>
-    <h3>Список социальных сетей:</h3>
-    <a href="https://www.instagram.com/zazuzej/" target="_blank">Instagram</a>
-    <a href="https://vk.com/zazuzej" target="_blank">В контакте</a>
-    <a href="https://github.com/Zaytsevie" target="_blank">Github</a>
+        <div class="info">
 
-    <h3>Мои хобби:</h3>
-    <ul>
-        <li>Путешествия</li>
-        <li>Фотография</li>
-        <li>Игра на гитаре</li>
+            <div class="bl1">
+                <img src="https://fs-thb02.getcourse.ru/fileservice/file/thumbnail/h/ccee4e32f72c58c3b5bd918deaaed0d9.jpeg/s/136x136/a/177331/sc/483"
+                    alt="аватар" class="avatar">
+            </div>
 
-    </ul>
 
-    <h3>Опыт работы:</h3>
-    <table border="1">
-        <thead>
-            <tr>
-                <th width="200">Название организации</th>
-                <th width="200">Должность</th>
-                <th width="100">Год</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>АО "СЭГЗ"</td>
-                <td>Инженер-технолог</td>
-                <td>2007 - 2017</td>
-            </tr>
-            <tr>
-                <td>АО "СЭГЗ"</td>
-                <td>Контрольный мастер</td>
-                <td>2017 - 2018</td>
-            </tr>
-            <tr>
-                <td>ООО "Веллифт"</td>
-                <td>Начальник БТК</td>
-                <td>2018 - сейчас</td>
-            </tr>
-        </tbody>
-    </table>
+            <div class="bl2">
+                <h1>Зайцев Игорь</h1>
 
-    <h3>Связаться со мной:</h3>
+                <p>
+                    Живу и работаю в городе <strong>Сарапул</strong>, Удмуртской республики.
+                </p>
+                <p>
+                    <em>Люблю путешествовать, занимаюсь фотографией, учусь играть на гитаре.</em>
+                </p>
 
-    <form>
-        <div>
-            <label for="text">Ваше имя:</label>
-            <input type="text" id="text" placeholder="укажите свое имя">
-        </div>
-        <div>
-            <label for="email">Ваш email:</label>
-            <input type="email" id="email" placeholder="укажите свой e-mail">
-        </div>
-        <div>
-            <label for="message">Сообщение:</label>
-            <br>
-            <textarea id="message" cols="32" rows="10" placeholder="Введите сообщение"></textarea>
+                <h3>Список социальных сетей:</h3>
+                <a href="https://www.instagram.com/zazuzej/" target="_blank" class="btn">Instagram</a> |
+                <a href="https://vk.com/zazuzej" target="_blank" class="btn">В контакте</a> |
+                <a href="https://github.com/Zaytsevie" target="_blank" class="btn">Github</a>
+            </div>
         </div>
 
-        <button type="submit">Отправить</button>
-    </form>
+
+        <div class="card cl2">
+            <h3>Мои хобби:</h3>
+            <ul class="list">
+                <li>Путешествия</li>
+                <li>Фотография</li>
+                <li>Игра на гитаре</li>
+
+            </ul>
+        </div>
+
+        <div class="card cl3">
+            <h3 class="exp">Опыт работы:</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Название организации</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>АО "СЭГЗ"</td>
+                        <td>Инженер-технолог</td>
+                        <td>2007 - 2017</td>
+                    </tr>
+                    <tr>
+                        <td>АО "СЭГЗ"</td>
+                        <td>Контрольный мастер</td>
+                        <td>2017 - 2018</td>
+                    </tr>
+                    <tr>
+                        <td>ООО "Веллифт"</td>
+                        <td>Начальник БТК</td>
+                        <td>2018 - сейчас</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="foot">
+
+
+            <form>
+                <h3>Связаться со мной:</h3>
+
+                <div class="we">
+                    <div class="yolo">
+                        <label for="text">Ваше имя:</label>
+                        <input type="text" id="text" placeholder="укажите свое имя">
+                    </div>
+                    <div class="yolo">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="укажите свой e-mail">
+                    </div>
+                </div>
+
+                <div class="yolo">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" cols="32" rows="10" placeholder="Введите сообщение"></textarea>
+                </div>
+
+                <div class="yolo2">
+                    <button type="submit" class="btn">Отправить</button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+
 </body>
 
 </html>
